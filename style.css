@@ -4,7 +4,7 @@
 }
 i
 {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 h1
 {
@@ -16,7 +16,7 @@ h1
 h2
 {
     margin-top: 0px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     font-weight: 100;
     color: #607560;
 }
@@ -24,6 +24,7 @@ h3
 {
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-right: 40%;
     font-weight: 100;
     color: #607560;
 }
@@ -53,7 +54,7 @@ hr
 {
     display: grid;
     height: 97vh;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.9fr 1fr;
     grid-template-areas:
     "leftSide rightSide";
     grid-gap: .2rem;
@@ -96,20 +97,21 @@ hr
     border-radius: 50%;
     border: 1px solid #29F5C5;
     height: 20%;
-    width: 80%;
+    width: 90%;
 }
 
 .facts
 {
     display: flex;
     flex-direction: row;
+    justify-content: left;
 }
 .factsLeft
 {
-    margin-right: 3%;
 }
 .factsRight
 {
+    margin-left: 0px;
 }
 
 .techSkills
@@ -120,7 +122,7 @@ hr
 
 .skillsLeft
 {
-    margin-right: 7%;
+    margin-right: 3%;
     margin-top: 8%;
     font-size: 13px;
 }
@@ -155,19 +157,23 @@ hr
 }
 .exp
 {
-    height: 33%;
+    height: 30%;
 }
 .education
 {
-    height: 25%;
+    height: 24%;
 }
 .interests
 {
-    height: 16%;
+    height: 14%;
 }
 .references
 {
-    height: 15%;
+    height: 14%;
+}
+.socials
+{
+    height: 10%;
 }
 
 
@@ -181,7 +187,7 @@ hr
 
 
 
-@media only screen and (min-width: 479px)
+@media only screen and (min-width: 550px)
 {
     .container
     {
@@ -197,9 +203,24 @@ hr
     }
     .skillsLeft
     {
-        margin-right: 20%;
+        margin-top: 5px;
+        margin-right: 10%;
+        font-size: 14px;
     }
-    .factsLeft{
-        margin-right: 15%;
+    .factsLeft
+    {
+        display: flex;
+        flex-direction: column;
+        margin-right: 6%;
+    }
+    .dot
+    {
+        margin-left: 15px;
+
+    }
+    .greenDot
+    {
+        margin-left: 15px;
+
     }
 }
