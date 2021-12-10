@@ -8,7 +8,8 @@ i
 }
 h1
 {
-    margin-top: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
     margin-bottom: 0px;
     color: white;
 }
@@ -17,14 +18,18 @@ h2
     margin-top: 0px;
     margin-bottom: 12px;
     font-weight: 100;
-    color: #636363;
+    color: #607560;
 }
 h3
 {
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 100;
-    color: #636363;
+    color: #607560;
+}
+p
+{
+    margin-top: 0px;
 }
 hr
 {
@@ -40,14 +45,14 @@ hr
 {
     display: grid;
     height: 97vh;
-    grid-template-columns: 0.85fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
     "leftSide rightSide";
     grid-gap: .2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
     font-size: 12px;
-    color: #383838;
+    color: #505950;
 }
 
 #leftSide
@@ -65,7 +70,7 @@ hr
 {
     display: flex;
     flex-direction: column;
-    height: 25%;
+    height: 24%;
 
 }
 .leftSkills
@@ -77,7 +82,7 @@ hr
 
 #profilePic
 {
-    background-image:url(/Assets/JagOLennox.jpg);
+    background-image:url(/Assets/Jag1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50%;
@@ -93,7 +98,7 @@ hr
 }
 .factsLeft
 {
-    margin-right: 5%;
+    margin-right: 3%;
 }
 .factsRight
 {
@@ -107,7 +112,8 @@ hr
 
 .skillsLeft
 {
-    margin-right: 5%;
+    margin-right: 7%;
+    margin-top: 8%;
     font-size: 13px;
 }
 
@@ -153,7 +159,7 @@ hr
 }
 .references
 {
-    height: 20%;
+    height: 15%;
 }
 
 
@@ -167,10 +173,11 @@ hr
 
 
 
-@media only screen and (min-width: 550px)
+@media only screen and (min-width: 479px)
 {
     .container
     {
+        background-color: royalblue;
         width: 600px;
     }
     #leftSide
