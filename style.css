@@ -15,7 +15,7 @@ h1
 h2
 {
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
     font-weight: 100;
     color: #636363;
 }
@@ -55,12 +55,24 @@ hr
     border-right: 3px solid #383838;
     padding: 5px;
 }
-
-.lefties
+.leftFacts
 {
     display: flex;
     flex-direction: column;
-    height: 24%;
+    height: 21%;
+}
+.leftProfile
+{
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+
+}
+.leftSkills
+{
+    display: flex;
+    flex-direction: column;
+    height: 36%;
 }
 
 #profilePic
@@ -70,6 +82,8 @@ hr
     background-repeat: no-repeat;
     border-radius: 50%;
     border: 1px solid #29F5C5;
+    height: 20%;
+    width: 80%;
 }
 
 .facts
@@ -155,8 +169,23 @@ hr
 
 @media only screen and (min-width: 550px)
 {
-    :root
+    .container
     {
-        background-color: green;
+        width: 600px;
+    }
+    #leftSide
+    {
+        border-right: 4px solid #383838;
+    }
+    #rightSide
+    {
+
+    }
+    .skillsLeft
+    {
+        margin-right: 20%;
+    }
+    .factsLeft{
+        margin-right: 15%;
     }
 }
