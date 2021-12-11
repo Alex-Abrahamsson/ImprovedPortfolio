@@ -106,9 +106,7 @@ hr
     flex-direction: row;
     justify-content: left;
 }
-.factsLeft
-{
-}
+
 .factsRight
 {
     margin-left: 0px;
@@ -125,11 +123,6 @@ hr
     margin-right: 3%;
     margin-top: 8%;
     font-size: 13px;
-}
-
-.skillsRight
-{
-    
 }
 .dot
 {
@@ -196,10 +189,6 @@ hr
     #leftSide
     {
         border-right: 4px solid #383838;
-    }
-    #rightSide
-    {
-
     }
     .skillsLeft
     {
